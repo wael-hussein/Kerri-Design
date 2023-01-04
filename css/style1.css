@@ -26,7 +26,7 @@ body {
   background-color: #6c757d70;
 }
 
-.home {
+header div.home {
   background-image: url(../img/header-bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -104,7 +104,8 @@ body {
   padding: 8px;
   border: 1px solid #777 !important;
 }
-.about-icons ul li svg {
+
+.about-icons ul li .lk {
   font-size: 20px;
   color: black;
 }
@@ -129,7 +130,7 @@ body {
 }
 
 .about-icons ul li:hover {
-  border-color: #6c757d !important;
+  border-color: #ffffff !important;
   transition: 0.2s linear;
 }
 
