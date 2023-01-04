@@ -1,0 +1,208 @@
+/* Test */
+/* Test */
+
+/* ---------PUPLIC--------- */
+ul {
+  list-style: none;
+}
+
+body {
+  height: 300vh;
+}
+/* ----------------------- */
+.primary-color {
+  color: #6c757d !important;
+}
+
+.secondary-color {
+  color: #e65f78 !important;
+}
+
+.btns-color {
+  background-color: #e65f78;
+}
+
+.navbar {
+  background-color: #6c757d70;
+}
+
+.home {
+  background-image: url(/img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  background-size: cover;
+}
+
+.home .layer {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+}
+
+.home .layer .home-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.home-content h1 {
+  font-size: 50px;
+}
+
+.gear-icon {
+  top: 18%;
+  font-size: 25px;
+}
+
+.home-content h1::after {
+  content: "";
+  animation: typing 1s ease infinite alternate;
+}
+
+@keyframes typing {
+  0% {
+    content: "I|";
+  }
+  10% {
+    content: "I'M |";
+  }
+  20% {
+    content: "I'M A |";
+  }
+  30% {
+    content: "I'M A W|";
+  }
+  40% {
+    content: "I'M A WE|";
+  }
+  50% {
+    content: "I'M A WEB D|";
+  }
+  60% {
+    content: "I'M A WEB DE|";
+  }
+  70% {
+    content: "I'M A WEB DESI|";
+  }
+  80% {
+    content: "I'M A WEB DESIG|";
+  }
+  90% {
+    content: "I'M A WEB DESIGNE|";
+  }
+  100% {
+    content: "I'M A WEB DESIGNER.|";
+  }
+}
+
+.about-icons ul li {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #777 !important;
+}
+.about-icons ul li svg {
+  font-size: 20px;
+  color: black;
+}
+.about-icons li:hover .fa-youtube {
+  color: #c4302b;
+  transition: 0.2s linear;
+}
+
+.about-icons li:hover .fa-facebook-f {
+  color: #3b5998;
+  transition: 0.2s linear;
+}
+
+.about-icons li:hover .fa-twitter {
+  color: #00acee;
+  transition: 0.2s linear;
+}
+
+.about-icons li:hover .fa-linkedin-in {
+  color: #0072b1;
+  transition: 0.2s linear;
+}
+
+.about-icons ul li:hover {
+  border-color: #6c757d !important;
+  transition: 0.2s linear;
+}
+
+.services .icon-text i {
+  font-size: 60px;
+  color: #e65f78;
+}
+.icon-color {
+  color: #e65f78;
+}
+
+.services .icon-text h5::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background-color: #e65f78;
+  bottom: 0;
+  transform: translateX(-50%);
+  left: 50%;
+  transition: 0.3s all;
+}
+.services .icon-text:hover h5::before {
+  width: 60px;
+}
+
+.indicators-btn {
+  color: #31b164;
+}
+
+.carousel-indicators {
+  position: static;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 10px;
+  height: 5px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #e65f78;
+  background-clip: padding-box;
+  border: 1px solid #e65f78;
+  opacity: 0.5;
+  border-radius: 10px;
+}
+.carousel-indicators .active {
+  opacity: 0.8;
+  background-color: #ff002f;
+  width: 18px;
+}
+
+.image-image {
+  background-color: tomato;
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+.image-image img {
+  width: 100%;
+}
