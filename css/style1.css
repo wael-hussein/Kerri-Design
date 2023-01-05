@@ -52,8 +52,9 @@ header div.home {
 }
 
 .gear-icon {
-  top: 18%;
   font-size: 25px;
+  position: fixed !important;
+  bottom: 50%;
 }
 
 .home-content h1::after {
